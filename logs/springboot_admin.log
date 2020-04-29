@@ -1,0 +1,113 @@
+2020-04-29 16:59:16.336  INFO 6052 --- [main] com.flouis.SpringbootAdminApplication    : Starting SpringbootAdminApplication on SKY-20180802FSS with PID 6052 (started by Administrator in D:\IntelliJ IDEA\workspace\springboot_admin)
+2020-04-29 16:59:16.348 DEBUG 6052 --- [main] com.flouis.SpringbootAdminApplication    : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-04-29 16:59:16.349  INFO 6052 --- [main] com.flouis.SpringbootAdminApplication    : No active profile set, falling back to default profiles: default
+2020-04-29 16:59:17.752  WARN 6052 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.flouis]' package. Please check your configuration.
+2020-04-29 16:59:17.833  INFO 6052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 16:59:17.837  INFO 6052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 16:59:17.873  INFO 6052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2020-04-29 16:59:18.458  INFO 6052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e9c3074] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 16:59:18.930  INFO 6052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1210 (http)
+2020-04-29 16:59:18.974  INFO 6052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-29 16:59:18.975  INFO 6052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-29 16:59:19.168  INFO 6052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-29 16:59:19.169  INFO 6052 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2644 ms
+2020-04-29 16:59:19.916  INFO 6052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 16:59:20.218  INFO 6052 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-29 16:59:22.054  INFO 6052 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-29 16:59:23.102  INFO 6052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1210 (http) with context path ''
+2020-04-29 16:59:23.108  INFO 6052 --- [main] com.flouis.SpringbootAdminApplication    : Started SpringbootAdminApplication in 8.181 seconds (JVM running for 10.73)
+2020-04-29 17:00:38.071  INFO 7252 --- [main] com.flouis.SpringbootAdminApplication    : Starting SpringbootAdminApplication on SKY-20180802FSS with PID 7252 (started by Administrator in D:\IntelliJ IDEA\workspace\springboot_admin)
+2020-04-29 17:00:38.078 DEBUG 7252 --- [main] com.flouis.SpringbootAdminApplication    : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-04-29 17:00:38.079  INFO 7252 --- [main] com.flouis.SpringbootAdminApplication    : No active profile set, falling back to default profiles: default
+2020-04-29 17:00:39.324  WARN 7252 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.flouis]' package. Please check your configuration.
+2020-04-29 17:00:39.405  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 17:00:39.409  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 17:00:39.441  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-04-29 17:00:40.007  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f5699ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 17:00:40.465  INFO 7252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1210 (http)
+2020-04-29 17:00:40.511  INFO 7252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-29 17:00:40.512  INFO 7252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-29 17:00:40.724  INFO 7252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-29 17:00:40.724  INFO 7252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2485 ms
+2020-04-29 17:00:41.428  INFO 7252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 17:00:41.759  INFO 7252 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-29 17:00:43.696  INFO 7252 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-29 17:00:44.668  INFO 7252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1210 (http) with context path ''
+2020-04-29 17:00:44.674  INFO 7252 --- [main] com.flouis.SpringbootAdminApplication    : Started SpringbootAdminApplication in 8.227 seconds (JVM running for 10.484)
+2020-04-29 17:40:17.319  INFO 7176 --- [main] com.flouis.SpringbootAdminApplication    : Starting SpringbootAdminApplication on SKY-20180802FSS with PID 7176 (started by Administrator in D:\IntelliJ IDEA\workspace\springboot_admin)
+2020-04-29 17:40:17.326 DEBUG 7176 --- [main] com.flouis.SpringbootAdminApplication    : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-04-29 17:40:17.328  INFO 7176 --- [main] com.flouis.SpringbootAdminApplication    : No active profile set, falling back to default profiles: default
+2020-04-29 17:40:18.790  INFO 7176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 17:40:18.793  INFO 7176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 17:40:18.836  INFO 7176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2020-04-29 17:40:19.429  INFO 7176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$382c0012] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 17:40:19.895  INFO 7176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1210 (http)
+2020-04-29 17:40:19.940  INFO 7176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-29 17:40:19.940  INFO 7176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-29 17:40:20.145  INFO 7176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-29 17:40:20.145  INFO 7176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2670 ms
+2020-04-29 17:40:20.326  INFO 7176 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-29 17:40:22.413  INFO 7176 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-29 17:40:23.088  INFO 7176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 17:40:24.079  INFO 7176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1210 (http) with context path ''
+2020-04-29 17:40:24.085  INFO 7176 --- [main] com.flouis.SpringbootAdminApplication    : Started SpringbootAdminApplication in 8.853 seconds (JVM running for 11.57)
+2020-04-29 17:40:54.663  INFO 7176 --- [http-nio-1210-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 17:40:54.664  INFO 7176 --- [http-nio-1210-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-29 17:40:54.697  INFO 7176 --- [http-nio-1210-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-04-29 17:40:54.779 DEBUG 7176 --- [http-nio-1210-exec-6] com.flouis.dao.SysRoleMapper.queryAll    : ==>  Preparing: select id, name, description, state, create_time, update_time from sys_role where state = 1 
+2020-04-29 17:40:54.817 DEBUG 7176 --- [http-nio-1210-exec-6] com.flouis.dao.SysRoleMapper.queryAll    : ==> Parameters: 
+2020-04-29 17:40:54.888 DEBUG 7176 --- [http-nio-1210-exec-6] com.flouis.dao.SysRoleMapper.queryAll    : <==      Total: 2
+2020-04-29 17:52:15.160  INFO 6288 --- [main] com.flouis.SpringbootAdminApplication    : Starting SpringbootAdminApplication on SKY-20180802FSS with PID 6288 (started by Administrator in D:\IntelliJ IDEA\workspace\springboot_admin)
+2020-04-29 17:52:15.167 DEBUG 6288 --- [main] com.flouis.SpringbootAdminApplication    : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-04-29 17:52:15.168  INFO 6288 --- [main] com.flouis.SpringbootAdminApplication    : No active profile set, falling back to default profiles: default
+2020-04-29 17:52:17.411  INFO 6288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 17:52:17.416  INFO 6288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 17:52:17.462  INFO 6288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2020-04-29 17:52:18.096  INFO 6288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$423cbff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 17:52:18.566  INFO 6288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1210 (http)
+2020-04-29 17:52:18.609  INFO 6288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-29 17:52:18.611  INFO 6288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-29 17:52:18.808  INFO 6288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-29 17:52:18.809  INFO 6288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3502 ms
+2020-04-29 17:52:19.026  INFO 6288 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-29 17:52:22.156  INFO 6288 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-29 17:52:23.251  INFO 6288 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-29 17:52:23.521  INFO 6288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 17:52:24.430  INFO 6288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-29 17:52:24.459  INFO 6288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-29 17:52:24.532  INFO 6288 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-29 17:52:24.900  INFO 6288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1210 (http) with context path ''
+2020-04-29 17:52:24.909  INFO 6288 --- [main] com.flouis.SpringbootAdminApplication    : Started SpringbootAdminApplication in 11.283 seconds (JVM running for 13.761)
+2020-04-29 17:53:10.863  INFO 6288 --- [http-nio-1210-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 17:53:10.864  INFO 6288 --- [http-nio-1210-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-29 17:53:10.888  INFO 6288 --- [http-nio-1210-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-04-29 17:54:13.150 DEBUG 6288 --- [http-nio-1210-exec-3] com.flouis.dao.SysRoleMapper.queryAll    : ==>  Preparing: select id, name, description, state, create_time, update_time from sys_role where state = 1 
+2020-04-29 17:54:13.183 DEBUG 6288 --- [http-nio-1210-exec-3] com.flouis.dao.SysRoleMapper.queryAll    : ==> Parameters: 
+2020-04-29 17:54:13.275 DEBUG 6288 --- [http-nio-1210-exec-3] com.flouis.dao.SysRoleMapper.queryAll    : <==      Total: 2
+2020-04-29 17:55:46.112  INFO 6772 --- [main] com.flouis.SpringbootAdminApplication    : Starting SpringbootAdminApplication on SKY-20180802FSS with PID 6772 (started by Administrator in D:\IntelliJ IDEA\workspace\springboot_admin)
+2020-04-29 17:55:46.148 DEBUG 6772 --- [main] com.flouis.SpringbootAdminApplication    : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-04-29 17:55:46.149  INFO 6772 --- [main] com.flouis.SpringbootAdminApplication    : No active profile set, falling back to default profiles: default
+2020-04-29 17:55:48.849  INFO 6772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 17:55:48.854  INFO 6772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 17:55:48.910  INFO 6772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2020-04-29 17:55:49.532  INFO 6772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3616803] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 17:55:50.035  INFO 6772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1210 (http)
+2020-04-29 17:55:50.081  INFO 6772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-29 17:55:50.082  INFO 6772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-29 17:55:50.316  INFO 6772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-29 17:55:50.316  INFO 6772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3971 ms
+2020-04-29 17:55:50.501  INFO 6772 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-29 17:55:53.455  INFO 6772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-29 17:55:54.367  INFO 6772 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-29 17:55:54.645  INFO 6772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 17:55:55.610  INFO 6772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-29 17:55:55.630  INFO 6772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-29 17:55:55.702  INFO 6772 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-29 17:55:55.943  INFO 6772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1210 (http) with context path ''
+2020-04-29 17:55:55.949  INFO 6772 --- [main] com.flouis.SpringbootAdminApplication    : Started SpringbootAdminApplication in 11.128 seconds (JVM running for 13.077)
+2020-04-29 17:56:01.493  INFO 6772 --- [http-nio-1210-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 17:56:01.494  INFO 6772 --- [http-nio-1210-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-29 17:56:01.511  INFO 6772 --- [http-nio-1210-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-04-29 17:56:10.857 DEBUG 6772 --- [http-nio-1210-exec-10] com.flouis.dao.SysRoleMapper.queryAll    : ==>  Preparing: select id, name, description, state, create_time, update_time from sys_role where state = 1 
+2020-04-29 17:56:10.894 DEBUG 6772 --- [http-nio-1210-exec-10] com.flouis.dao.SysRoleMapper.queryAll    : ==> Parameters: 
+2020-04-29 17:56:10.998 DEBUG 6772 --- [http-nio-1210-exec-10] com.flouis.dao.SysRoleMapper.queryAll    : <==      Total: 2
