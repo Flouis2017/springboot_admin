@@ -19,6 +19,18 @@ spring:
             max-pool-prepared-statement-per-connection-size: 20
             validation-query: SELECT 1 FROM DUAL
             filter: stat, wall # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，wall用于防火墙
+    # redis配置
+    redis:
+        host: 122.51.145.185
+        port: 6336
+        password: 951210
+        lettuce:
+            pool:
+                max-active: 100
+                max-wait: PT10S
+                max-idle: 30
+                min-idle: 1
+        timeout: PT10S
 
 
 # logging配置
@@ -35,3 +47,4 @@ mybatis:
 # swagger2开关
 swagger2:
     enable: true
+
