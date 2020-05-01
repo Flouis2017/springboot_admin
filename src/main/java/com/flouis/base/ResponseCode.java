@@ -8,7 +8,9 @@ public enum ResponseCode {
 	TOKEN_EXPIRED(401002, "token过期"),
 	NEED_AUTHORIZATION(401003, "需要授权认证"),
 
-	BUSINESS_EXCEPTION(402001, "业务异常，请求失败！"),
+	REQ_PARAM_EXCEPTION(402001, "请求参数异常，请求失败！"),
+
+	BUSINESS_EXCEPTION(403001, "业务异常，请求失败！"),
 
 	FAIL(500000, "服务器异常，请求失败！");
 

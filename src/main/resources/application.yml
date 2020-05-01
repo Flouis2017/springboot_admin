@@ -48,3 +48,10 @@ mybatis:
 swagger2:
     enable: true
 
+# JWT配置
+jwt:
+    secretKey: whosyourDaddy
+    accessTokenExpireTime: PT1H
+    refreshTokenExpireTime: PT2H
+    refreshTokenExpireAppTime: P30D
+    issuer: Flouis.com

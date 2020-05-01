@@ -27,6 +27,10 @@ public class JsonResult {
 		return res;
 	}
 
+	public static JsonResult result(Integer code, String msg){
+		return result(code, msg, null);
+	}
+
 	public static JsonResult result(ResponseCode responseCode){
 		return result(responseCode.getCode(), responseCode.getDescription(), null);
 	}
