@@ -8,7 +8,7 @@ public class InitializerUtil {
 	private TokenSetting tokenSetting;
 
 	public InitializerUtil(TokenSetting tokenSetting){
-
+		JwtTokenUtil.setTokenSetting(tokenSetting);
 	}
 
 }

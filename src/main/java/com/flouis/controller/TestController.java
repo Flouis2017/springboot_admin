@@ -13,7 +13,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/test")
-@Api(value = "测试接口")
+@Api(tags = "测试Api")
 public class TestController {
 
 	@GetMapping("/business/exception")
@@ -30,8 +30,5 @@ public class TestController {
 	public JsonResult validExceptionTest(@RequestBody @Valid TestVo vo){
 		return JsonResult.success(vo);
 	}
-
-
-
 
 }

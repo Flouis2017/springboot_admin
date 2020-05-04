@@ -39,6 +39,10 @@ public class JsonResult {
 		return result(ResponseCode.SUCCESS.getCode(), ResponseCode.SUCCESS.getDescription(), null);
 	}
 
+	public static JsonResult success(String msg){
+		return result(ResponseCode.SUCCESS.getCode(), msg, null);
+	}
+
 	public static JsonResult success(Object data){
 		return result(ResponseCode.SUCCESS.getCode(), ResponseCode.SUCCESS.getDescription(), data);
 	}

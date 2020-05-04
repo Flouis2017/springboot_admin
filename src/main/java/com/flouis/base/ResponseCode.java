@@ -4,6 +4,11 @@ public enum ResponseCode {
 
 	SUCCESS(200000, "请求成功"),
 
+	NO_ACCOUNT(400000, "用户不存在"),
+	USER_DISABLED(400001, "当前用户不可用"),
+	PASSWORD_UNMATCHED(400001, "密码出错"),
+	TO_LOGIN(401999, "跳转至登录页"),
+	TOKEN_ERROR(401000, "token错误"),
 	NEED_AUTHENTICATION(401001, "需要身份认证"),
 	TOKEN_EXPIRED(401002, "token过期"),
 	NEED_AUTHORIZATION(401003, "需要授权认证"),
