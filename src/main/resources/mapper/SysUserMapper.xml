@@ -183,4 +183,9 @@
 		from sys_user where username = #{username}
 	</select>
 
+	<select id="queryAllByVo" parameterType="com.flouis.vo.UserVo" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List"/>
+		from sys_user
+	</select>
+
 </mapper>

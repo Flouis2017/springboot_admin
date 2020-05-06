@@ -55,3 +55,8 @@ jwt:
     refreshTokenExpireTime: PT2H
     refreshTokenExpireAppTime: P30D
     issuer: Flouis.com
+
+# 分页pagehelper配置
+pagehelper:
+    helper-dialect: mysql
+    reasonable: true

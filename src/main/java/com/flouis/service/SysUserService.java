@@ -5,11 +5,15 @@ import com.flouis.common.MyConst;
 import com.flouis.dao.SysUserMapper;
 import com.flouis.entity.SysUser;
 import com.flouis.exception.BusinessException;
+import com.flouis.util.PageUtil;
 import com.flouis.util.jwt.JwtTokenUtil;
 import com.flouis.util.jwt.TokenSetting;
 import com.flouis.util.password.PasswordUtils;
+import com.flouis.vo.PageVo;
+import com.flouis.vo.UserVo;
 import com.flouis.vo.login.LoginReqVo;
 import com.flouis.vo.login.LoginRespVo;
+import com.github.pagehelper.PageHelper;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
@@ -118,6 +122,12 @@ public class SysUserService {
 			list.add("sys:user:list");
 		}
 		return  list;
+	}
+
+	public PageVo userPage(UserVo vo) {
+		PageHelper.startPage(vo.getPage(), vo.getSize());
+		List<SysUser> sysUserList = this.sysUserMapper.queryAllByVo(vo);
+		return PageUtil.getPageVo(sysUserList);
 	}
 
 }
