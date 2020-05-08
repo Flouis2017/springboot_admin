@@ -6,12 +6,18 @@ public enum ResponseCode {
 
 	NO_ACCOUNT(400000, "用户不存在"),
 	USER_DISABLED(400001, "当前用户不可用"),
-	PASSWORD_UNMATCHED(400001, "密码出错"),
+	USER_DELETED(400002, "当前用户已被删除"),
+	PASSWORD_UNMATCHED(400003, "密码出错"),
+
 	TO_LOGIN(401999, "跳转至登录页"),
+
 	TOKEN_ERROR(401000, "token错误"),
-	NEED_AUTHENTICATION(401001, "需要身份认证"),
-	TOKEN_EXPIRED(401002, "token过期"),
-	NEED_AUTHORIZATION(401003, "需要授权认证"),
+	NULL_TOKEN(401001, "token为空"),
+	NEED_AUTHENTICATION(401010, "需要身份认证/登录"),
+	TOKEN_EXPIRED(401011, "token过期"),
+	NEED_AUTHORIZATION(401012, "需要授权认证"),
+
+	SHIRO_AUTHENTICATION_ERROR(401020, "shiro身份认证出错"),
 
 	REQ_PARAM_EXCEPTION(402001, "请求参数异常，请求失败！"),
 

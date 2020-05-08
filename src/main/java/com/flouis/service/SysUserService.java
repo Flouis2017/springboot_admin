@@ -46,9 +46,15 @@ public class SysUserService {
 		if ( null == sysUser ){
 			throw new BusinessException(ResponseCode.NO_ACCOUNT);
 		}
-		if (sysUser.getState() != 1){
+
+		// 用户状态校验
+		if ("0".equals(String.valueOf(sysUser.getState()))){
 			throw new BusinessException(ResponseCode.USER_DISABLED);
 		}
+		if ("2".equals(String.valueOf(sysUser.getState()))){
+			throw new BusinessException(ResponseCode.USER_DELETED);
+		}
+
 		if (!PasswordUtils.match(sysUser.getSalt(), vo.getPassword(), sysUser.getPassword())){
 			throw new BusinessException(ResponseCode.PASSWORD_UNMATCHED);
 		}
