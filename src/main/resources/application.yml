@@ -31,6 +31,14 @@ spring:
                 max-idle: 30
                 min-idle: 1
         timeout: PT10S
+    # thymeleaf配置
+    thymeleaf:
+        prefix: classpath:/templates/
+        suffix: .html
+        charset: UTF-8
+        servlet:
+            content-type: text/html
+        cache: false
 
 
 # logging配置
@@ -60,3 +68,5 @@ jwt:
 pagehelper:
     helper-dialect: mysql
     reasonable: true
+
+
