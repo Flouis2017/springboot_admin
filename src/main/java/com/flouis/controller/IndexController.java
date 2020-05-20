@@ -17,4 +17,16 @@ public class IndexController {
 		return "error/404";
 	}
 
+	@GetMapping("/login")
+	@ApiOperation("跳转登录界面")
+	public String login(){
+		return "login";
+	}
+
+	@GetMapping("/home")
+	@ApiOperation("跳转首页界面")
+	public String home(){
+		return "home";
+	}
+
 }

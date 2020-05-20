@@ -13,7 +13,7 @@ var CoreUtil = (function () {
 	var coreUtil = {};
 	// ajax请求
 	coreUtil.sendAjax = function (url, params, ft, method, async, contentType) {
-		var roleSaveLoading = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+		var roleSaveLoading = top.layer.msg('请稍候', {icon: 16, time:false, shade:0.8});
 		$.ajax({
 			url: url,
 			cache: false,
@@ -34,7 +34,7 @@ var CoreUtil = (function () {
 					}
 				}
 			},
-			error: function (XMLHttpRequest, textStatus, errorThrown) {
+			error: function (XMLHttpRequest) {
 				top.layer.close(roleSaveLoading);
 				if (XMLHttpRequest.status==404){
 					top.window.location.href="/index/404";
@@ -44,5 +44,21 @@ var CoreUtil = (function () {
 			}
 		});
 	};
+
+	/*存入本地缓存*/
+	coreUtil.setData = function(key, value){
+		layui.sessionData('LocalData',{
+			key :key,
+			value: value
+		});
+	};
+
+	/*从本地缓存拿数据*/
+	coreUtil.getData = function(key){
+		var localData = layui.sessionData('LocalData');
+		return localData[key];
+	};
+
+
 	return coreUtil;
 })(CoreUtil, window);

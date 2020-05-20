@@ -59,6 +59,14 @@ public class ShiroConfig {
         // 配置拦截/放行的url，会按照顺序放行
         Map<String, String> filterChainDefinitionMap = Maps.newLinkedHashMap();
         filterChainDefinitionMap.put("/sys/user/login", "anon");
+        filterChainDefinitionMap.put("/index/**", "anon");
+        filterChainDefinitionMap.put("/images/**", "anon");
+        filterChainDefinitionMap.put("/js/**", "anon");
+        filterChainDefinitionMap.put("/layui/**", "anon");
+        filterChainDefinitionMap.put("/css/**", "anon");
+        filterChainDefinitionMap.put("/treetable-lay/**", "anon");
+        filterChainDefinitionMap.put("/sys/user/token", "anon");
+
         filterChainDefinitionMap.put("/swagger/**", "anon");
         filterChainDefinitionMap.put("/swagger-ui.html", "anon");
         filterChainDefinitionMap.put("/swagger-resources/**", "anon");
@@ -71,7 +79,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/**", "token,authc");
 
         // 配置shiro默认登录界面url，前后端分离登录界面跳转由前端路由控制，后台仅返回json数据
-        shiroFilterFactoryBean.setLoginUrl("/sys/user/toLogin");
+        shiroFilterFactoryBean.setLoginUrl("/index/login");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 
         return shiroFilterFactoryBean;
