@@ -14,7 +14,7 @@ var CoreUtil = (function () {
 	// ajax请求
 	coreUtil.sendAjax = function (url, params, ft, method, async, contentType) {
 		var roleSaveLoading = top.layer.msg('请稍候', {icon: 16, time:false, shade:0.8});
-		$.ajax({
+		layui.jquery.ajax({
 			url: url,
 			cache: false,
 			async: async == undefined ? true : async,

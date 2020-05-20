@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/sys/user")
@@ -25,7 +26,7 @@ public class SysUserController {
 
 	@PostMapping("/login")
 	@ApiOperation(value = "用户登录")
-	public JsonResult login(@RequestBody LoginReqVo vo) throws BusinessException{
+	public JsonResult login(@RequestBody @Valid LoginReqVo vo) throws BusinessException{
 		return JsonResult.success(this.sysUserService.login(vo));
 	}
 
